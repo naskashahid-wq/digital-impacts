@@ -1,0 +1,281 @@
+
+.portfolio-section {
+  width: 100%;
+  min-height: 700px;
+  background-color: #ffffff;
+  padding-top: 15px;
+  font-family: Arial, sans-serif;
+}
+.portfolio-container {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 14px;
+  padding-top: 80px;
+}
+.portfolio-left {
+  width: 500px;
+}
+
+.portfolio-map {
+  width: 500px;
+  height: 252px;
+}
+
+.portfolio-map iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.portfolio-contact-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.portfolio-phone {
+  display: flex;
+  align-items: flex-start;
+  gap: 55px;
+}
+
+.portfolio-phone i,
+.portfolio-email i {
+  background-color: #079bd5;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.portfolio-phone p,
+.portfolio-email p {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 17px;/
+}
+
+.portfolio-email {
+  display: flex;
+  align-items: flex-start;
+  gap: 55px;
+}
+
+.portfolio-form {
+  width: 320px;
+  min-height: 370px;
+  background-color: white;
+  border-top: 6px solid #079bd5;
+  border-bottom: 12px solid #079bd5;
+  border-radius: 15px;
+  box-shadow: 4px 4px 12px 4px #128cee;
+  padding: 23px 28px;
+}
+
+.portfolio-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-form label {
+  color: #079bd5;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.portfolio-form input {
+  width: 100%;
+  height: 25px;
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+  outline: none;
+  font-size: 13px;
+  margin-bottom: 17px;
+  padding: 3px 0;
+}
+
+.portfolio-form input::placeholder {
+  color:black;
+}
+
+.portfolio-form button {
+  width: 60px;
+  background-color: #079bd5;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 5px 7px;
+  font-size: 14px;
+}
+.portfolio-bottom {
+  width: 100%;
+  text-align: center;
+  margin-top: 145px;
+}
+.portfolio-line {
+  width: 95px;
+  height: 11px;
+  background-color: #079bd5;
+  margin: 0 auto 14px;
+}
+.portfolio-bottom h1 {
+  font-size: 40px;
+  color: #079bd5;
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+
+.portfolio-bottom p {
+  color: black;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1;
+  margin-bottom: 28px;
+}
+
+.portfolio-connect {
+  background-color: #079bd5;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+   position: relative;
+  top: -15px;
+}
+.portfolio-email p{
+    padding-right: 1300px;
+}
+
+.footer-section {
+  width: 100%;
+  background-color: #079bd5;
+  color: white;
+  padding: 18px 10px;
+  font-family: Arial, sans-serif;
+  padding-top: 100px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 9.5%;
+}
+
+.footer-column {
+  width: 30%;
+}
+
+.footer-column h3 {
+  color: #054164;
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 26px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  color: #063c57;
+  font-size: 17px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.footer-resources ul li {
+  margin-bottom: 3px;
+}
+
+.follow-button {
+  width: 248px;
+  height: 38px;
+  margin-top: 18px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.social-icons i {
+  width: 53px;
+  height: 53px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+.footer-countries {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 58px;
+}
+
+.country-box {
+  width: 33.33%;
+}
+
+.country-flag {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 12px;
+}
+
+.country-box h4 {
+  font-size: 17px;
+  margin: 0 0 8px;
+}
+
+.country-box p {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+.footer-bottom {
+  width: 100%;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.footer-bottom hr {
+  border: none;
+  border-top: 2px solid white;
+  margin-bottom: 35px;
+}
+
+.footer-bottom p {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.country-box img {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}

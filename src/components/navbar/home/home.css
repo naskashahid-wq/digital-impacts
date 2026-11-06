@@ -1,0 +1,94 @@
+.home-section {
+  width: 100%;
+  background-color: white;
+  padding-top: 55px;
+}
+
+.home-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-image {
+  width: 34%;
+}
+
+.home-image img {
+  width: 100%;
+  height: 430px;
+  object-fit: cover;
+  display: block;
+}
+
+.home-text {
+  width: 46%;
+  margin-right: 7%;
+  align-self: flex-start;
+}
+
+.home-text h1 {
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1.35;
+  color: black;
+}
+
+.home-text h1 span {
+  color: #079bd5;
+}
+
+.home-text h2 {
+  font-size: 35px;
+  color: #079bd5;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+.home-text hr {
+  border: none;
+  height: 2px;
+  background-color: #079bd5;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.home-text p {
+  font-size: 20px;
+  line-height: 21px;
+  color: black;
+}
+
+.message-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 35px;
+}
+
+.message-button button {
+  background-color: #079bd5;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 15px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.home-bottom-heading {
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+  padding-bottom: 45px;
+}
+
+.home-bottom-heading h2 {
+  font-size: 28px;
+  line-height: 38px;
+  color: black;
+}
+
+.home-bottom-heading span {
+  color: #079bd5;
+}
